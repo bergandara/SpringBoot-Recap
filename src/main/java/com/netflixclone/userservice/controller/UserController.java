@@ -1,8 +1,10 @@
 package com.netflixclone.userservice.controller;
 
 import com.netflixclone.userservice.dto.UserDTO;
+import com.netflixclone.userservice.dto.UserRequestDTO;
 import com.netflixclone.userservice.entity.User;
 import com.netflixclone.userservice.service.UserService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -21,9 +23,8 @@ public class UserController {
     }
 
     @PostMapping
-    public ResponseEntity<UserDTO> createUser(@RequestBody User user){
-        UserDTO createdUser = userService.createUser(user);
-        return ResponseEntity.ok(createdUser);
+    public ResponseEntity<UserDTO> createUser(@Valid @RequestBody UserRequestDTO userRequest){
+        return ResponseEntity.ok(userService.createUser(userRequest));
     }
 
     @GetMapping
@@ -40,6 +41,12 @@ public class UserController {
     public ResponseEntity<Void> deleteUser(@PathVariable Long id){
         userService.deleteUser(id);
         return ResponseEntity.noContent().build();
+    }
+
+    @PutMapping("/{email}")
+    public ResponseEntity<UserDTO> updateUser(@PathVariable String email, @RequestBody User updatedUser){
+        UserDTO updated = userService.updateUser(email, updatedUser);
+        return ResponseEntity.ok(updated);
     }
 }
 
