@@ -18,9 +18,6 @@ import java.util.List;
 public class MovieController {
     private final MovieService movieService;
 
-//    public MovieController(MovieService movieService){
-//        this.movieService = movieService;
-//    }
 
     @PostMapping
     public ResponseEntity<MovieResponseDTO> createMovie(@Valid @RequestBody MovieRequestDTO request){
