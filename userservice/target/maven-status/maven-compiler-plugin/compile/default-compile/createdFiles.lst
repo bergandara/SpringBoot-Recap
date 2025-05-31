@@ -1,0 +1,13 @@
+com/netflixclone/userservice/dto/UserDTO.class
+com/netflixclone/userservice/repository/UserRepository.class
+com/netflixclone/userservice/config/SecurityConfig.class
+com/netflixclone/userservice/dto/UserDTO$UserDTOBuilder.class
+com/netflixclone/userservice/entity/User.class
+com/netflixclone/userservice/service/impl/UserServiceImpl.class
+com/netflixclone/userservice/dto/UserRequestDTO.class
+com/netflixclone/userservice/dto/UserRequestDTO$UserRequestDTOBuilder.class
+com/netflixclone/userservice/UserServiceApplication.class
+com/netflixclone/userservice/controller/UserController.class
+com/netflixclone/userservice/service/UserService.class
+com/netflixclone/userservice/config/SecurityBypassConfig.class
+com/netflixclone/userservice/entity/User$UserBuilder.class

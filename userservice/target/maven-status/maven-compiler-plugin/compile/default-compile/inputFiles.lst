@@ -1,0 +1,10 @@
+/Users/bernardogandara/Desktop/Netflix - Recap/userservice/src/main/java/com/netflixclone/userservice/UserServiceApplication.java
+/Users/bernardogandara/Desktop/Netflix - Recap/userservice/src/main/java/com/netflixclone/userservice/config/SecurityBypassConfig.java
+/Users/bernardogandara/Desktop/Netflix - Recap/userservice/src/main/java/com/netflixclone/userservice/config/SecurityConfig.java
+/Users/bernardogandara/Desktop/Netflix - Recap/userservice/src/main/java/com/netflixclone/userservice/controller/UserController.java
+/Users/bernardogandara/Desktop/Netflix - Recap/userservice/src/main/java/com/netflixclone/userservice/dto/UserDTO.java
+/Users/bernardogandara/Desktop/Netflix - Recap/userservice/src/main/java/com/netflixclone/userservice/dto/UserRequestDTO.java
+/Users/bernardogandara/Desktop/Netflix - Recap/userservice/src/main/java/com/netflixclone/userservice/entity/User.java
+/Users/bernardogandara/Desktop/Netflix - Recap/userservice/src/main/java/com/netflixclone/userservice/repository/UserRepository.java
+/Users/bernardogandara/Desktop/Netflix - Recap/userservice/src/main/java/com/netflixclone/userservice/service/UserService.java
+/Users/bernardogandara/Desktop/Netflix - Recap/userservice/src/main/java/com/netflixclone/userservice/service/impl/UserServiceImpl.java
